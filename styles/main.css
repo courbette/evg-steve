@@ -1,0 +1,193 @@
+
+@font-face{
+    font-family: 'Morpheus';
+    src: url('morpheus-webfont.eot');
+    src: url('morpheus-webfont.eot?#iefix') format('embedded-opentype'),
+    url('morpheus-webfont.woff') format('woff'),
+    url('morpheus-webfont.ttf') format('truetype'),
+    url('morpheus-webfont.svg#morpheus-webfont') format('svg');
+}
+
+body{
+    font-size: 0.8em;
+    font-family:  FreeSerif "Bookman", Georgia, "Times New Roman", serif;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+    background-attachment:fixed;
+    background-position:center;
+    width: 800px;
+}
+
+#app{
+    background: url("../images/background.jpeg") no-repeat;
+    background-position: center bottom, left top;
+    background-repeat: no-repeat;
+    height: 600px;
+    width:1440px;
+}
+.container{
+    width: 800px;
+}
+
+h1 {
+    line-height: 1.1em;
+}
+
+.quest-panel{
+    background: url("../images/quest.png") no-repeat;
+    height: 700px;
+    position: relative;
+}
+
+.quest-panel span.count{
+    color:white;
+    font-size: 0.6em;
+    background: black;
+    position: absolute;
+    left:120px;
+    top:-30px;
+    width: 35px;
+    text-align: center;
+    height: 12px
+}
+
+.quest-list{
+    height: 360px;
+    width: 321px;
+    position: absolute;
+    top: 78px;
+    left:20px;
+}
+.quest-list, .quest-list a,.quest-list{
+    background: rgba(0,0,0,0.8);
+    text-decoration: none;
+    line-height: 1.4em;
+    color: #9b9b9b;
+}
+.quest-list ul {
+    list-style-image: url('../images/bullet.gif');
+}
+
+.quest-list ul ul{
+    list-style: none;
+    width: inherit;
+}
+.quest h1{
+    font-size: 3em;
+}
+.quest *.content{
+    font-size: 2.1em;
+}
+
+.quest-list ul ul li a.active{
+    background-image:linear-gradient(to right, black, #aea823,#e9e331,black);
+    color:white;
+    width: 245px;
+    margin-left: -50px;
+    padding-left: 50px;
+
+}
+
+.quest-list ul ul li a{
+    color:#e9e331;
+    width: 245px;
+    margin-left: -50px;
+    padding-left: 50px;
+    background: rgba(0,0,0,0);
+}
+
+.quest-list ul ul li a.danger.active{
+    background-image:linear-gradient(to right, black, #a20000,red,black);
+    color:white;
+    width: 245px;
+    margin-left: -50px;
+    padding-left: 50px;
+
+}
+
+.quest-list ul ul li a.danger{
+    color:red;
+    width: 245px;
+    margin-left: -50px;
+    padding-left: 50px;
+    background: rgba(0,0,0,0);
+
+}
+
+
+.quest{
+    background:url("../images/back.jpg");
+    position: absolute;
+    left:373px;
+    top:80px;
+    width: 322px;
+    font-size: 0.5em;
+    height: 360px;
+    font-family: Morpheus;
+
+}
+
+#quit{
+    position: absolute;
+    left: 681px;
+    top:-64px;
+    width: 24px;
+    height: 24px;
+    text-indent: -99999px;
+    background: rgba(0,0,0,0);
+}
+#close{
+    position: absolute;
+    left: 625px;
+    top:360px;
+    width: 80px;
+    height: 24px;
+    text-indent: -99999px;
+    background: rgba(0,0,0,0);
+}
+
+
+a.interrogation{
+    position: absolute;
+    height: 130px;
+    width: 100px;
+    left: 290px;
+    top: 140px;
+   /* overflow: hidden;*/
+    background: url("../images/exclamation-grey.gif") no-repeat 0 0;
+    /*top:120px;
+    left:840px;*/
+}
+a.interrogation2{
+    position: absolute;
+    height: 130px;
+    width: 100px;
+    top: 100px;
+    left:860px;
+    /* overflow: hidden;*/
+    background: url("../images/exclamation-grey.gif") no-repeat 0 0;
+    /*top:120px;
+    left:840px;*/
+}
+
+a.mount{
+    position: absolute;
+    left: 230px;
+    top:280px;
+    width: 200px;
+    height: 230px;
+    text-indent: -99999px;
+    background: rgba(0,0,0,0);
+}
+
+a.say{
+    position: absolute;
+    left: 830px;
+    top:250px;
+    z-index: 900;
+    width: 160px;
+    height: 300px;
+    text-indent: -99999px;
+    background: rgba(0,0,0,0);
+}

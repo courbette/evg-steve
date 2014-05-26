@@ -1,0 +1,51 @@
+[
+    {
+        "name": "wedding",
+        "quests": [
+            {
+                "name": "A man ill-suited to the job...",
+                "content": "say",
+                "classes": ["danger"]
+            },{
+                "name": "Sex !",
+                "content": "sex",
+                "classes": ["danger"]
+            }
+        ]
+    },{
+    "name":"Starters",
+    "quests":[
+        {
+            "name":"I am a pilot",
+            "content":"mount",
+            "classes":[]
+        }
+    ]
+},
+    {
+        "name":"bachelor party",
+        "quests":[
+            {
+                "name":"Mission 1 : ???",
+                "content":"1",
+                "classes":["danger"]
+            }, {
+                "name":"Mission 2 : ???",
+                "content":"2",
+                "classes":["danger"]
+            }, {
+                "name":"Mission 3 : ???",
+                "content":"3",
+                "classes":["danger"]
+            }, {
+                "name":"Mission 4 : ???",
+                "content":"4",
+                "classes":["danger"]
+            }, {
+                "name":"Mission 5 : ???",
+                "content":"5",
+                "classes":["danger"]
+            }
+        ]
+    }
+]

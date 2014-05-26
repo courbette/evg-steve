@@ -1,0 +1,13 @@
+<div class="quest-panel"><div class="quest-list">
+    <i ><a ui-sref="main" id="quit">__</a></i>
+    <span class="count">{{nbQuests}}/25</span>
+    <ul>
+        <li ng-repeat-start="item in items">{{item.name}}</li>
+        <ul ng-repeat-end>
+            <li ng-repeat="quest in item.quests"><a ng-class="getClass(item,quest)" href="#" ui-sref="list.quest({ name: quest.name })" ui-sref-active="active">{{quest.name}}</a></li>
+        </ul>
+    </ul>
+    <i ><a ui-sref="main" id="close">__</a></i>
+
+</div>
+<div ui-view></div></div>
