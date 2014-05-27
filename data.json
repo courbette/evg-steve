@@ -10,6 +10,10 @@
                 "name": "Sex !",
                 "content": "sex",
                 "classes": ["danger"]
+            },{
+                "name": "Tonight I am the cook",
+                "content": "dinner",
+                "classes": ["fisted"]
             }
         ]
     },{
@@ -18,11 +22,11 @@
         {
             "name":"I am a pilot",
             "content":"mount",
-            "classes":[]
+            "classes":["finished"]
         },{
             "name":"OO-EVG",
             "content":"ooevg",
-            "classes":[]
+            "classes":["finished"]
         }
     ]
 },
@@ -32,23 +36,23 @@
             {
                 "name":"Mission 1 : ???",
                 "content":"1",
-                "classes":["danger"]
+                "classes":["danger","raid"]
             }, {
                 "name":"Mission 2 : ???",
                 "content":"2",
-                "classes":["danger"]
+                "classes":["danger","raid"]
             }, {
                 "name":"Mission 3 : ???",
                 "content":"3",
-                "classes":["danger"]
+                "classes":["danger","raid"]
             }, {
                 "name":"Mission 4 : ???",
                 "content":"4",
-                "classes":["danger"]
+                "classes":["danger","raid"]
             }, {
                 "name":"Mission 5 : ???",
                 "content":"5",
-                "classes":["danger"]
+                "classes":["danger","raid"]
             }
         ]
     }
