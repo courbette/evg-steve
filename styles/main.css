@@ -90,14 +90,17 @@ h1 {
 }
 
 .quest-list ul ul li a.finished:after{
-    content: "[complete]";
+    content: "(complete)";
     text-align: right;
-    padding-left: 100px;
+    padding-right: 5px;
+    float: right;
 }
 
 .quest-list ul ul li a.raid:after{
-    content: "[Raid (25)]"!important;
-    padding-left: 80px;
+    content: "(Raid (25))"!important;
+    padding-right: 5px;
+    float: right;
+    text-align: right;
 }
 
 .quest-list ul ul li a{
