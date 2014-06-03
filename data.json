@@ -27,6 +27,14 @@
             "name":"OO-EVG",
             "content":"ooevg",
             "classes":["finished"]
+        },{
+            "name":"Suit up !",
+            "content":"suit",
+            "classes":[""]
+        },{
+            "name":"OO-EVG V2",
+            "content":"v2",
+            "classes":[""]
         }
     ]
 },
