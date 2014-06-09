@@ -14,6 +14,10 @@
                 "name": "Tonight I am the cook",
                 "content": "dinner",
                 "classes": ["fisted"]
+            },{
+                "name": "Photo de famille",
+                "content": "selfie",
+                "classes": [""]
             }
         ]
     },{
