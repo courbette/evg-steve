@@ -13,11 +13,11 @@
             },{
                 "name": "Tonight I am the cook",
                 "content": "dinner",
-                "classes": ["fisted"]
+                "classes": ["fisted","finished"]
             },{
                 "name": "Photo de famille",
                 "content": "selfie",
-                "classes": [""]
+                "classes": ["finished"]
             }
         ]
     },{
@@ -46,7 +46,7 @@
         "name":"bachelor party",
         "quests":[
             {
-                "name":"Mission 1 : ???",
+                "name":"Mission 1 : On the grill",
                 "content":"1",
                 "classes":["danger","raid"]
             }, {
