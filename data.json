@@ -34,7 +34,7 @@
         },{
             "name":"Suit up !",
             "content":"suit",
-            "classes":[""]
+            "classes":["finished"]
         },{
             "name":"OO-EVG V2",
             "content":"v2",
@@ -48,21 +48,21 @@
             {
                 "name":"Mission 1 : On the grill",
                 "content":"1",
-                "classes":["danger","raid"]
+                "classes":["danger","raid","finished"]
             }, {
-                "name":"Mission 2 : ???",
+                "name":"Mission 2 : [censured]",
                 "content":"2",
                 "classes":["danger","raid"]
             }, {
-                "name":"Mission 3 : ???",
+                "name":"Mission 3 : [censured]",
                 "content":"3",
                 "classes":["danger","raid"]
             }, {
-                "name":"Mission 4 : ???",
+                "name":"Mission 4 : [censured]",
                 "content":"4",
                 "classes":["danger","raid"]
             }, {
-                "name":"Mission 5 : ???",
+                "name":"Mission 5 : [censured]",
                 "content":"5",
                 "classes":["danger","raid"]
             }
